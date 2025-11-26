@@ -1,0 +1,27 @@
+{
+    "clientes": [
+        {
+            "nombre": "paul",
+            "telefono": "46828774",
+            "email": "paulsoria92@gmail.com",
+            "id_cliente": 1
+        }
+    ],
+    "turnos": [
+        {
+            "id_turno": 2,
+            "cliente": {
+                "nombre": "paul",
+                "telefono": "46828774",
+                "email": "paulsoria92@gmail.com",
+                "id_cliente": 1
+            },
+            "fecha": "14-12-2025",
+            "hora": "14:00",
+            "servicio": "corte",
+            "estado": "cancelado"
+        }
+    ],
+    "proximo_id_turno": 3,
+    "proximo_id_cliente": 2
+}
